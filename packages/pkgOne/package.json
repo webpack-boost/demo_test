@@ -1,6 +1,6 @@
 {
   "name": "pkgone",
-  "version": "0.0.1",
+  "version": "0.0.1-alpha.0",
   "description": "测试包",
   "keywords": [
     "test"

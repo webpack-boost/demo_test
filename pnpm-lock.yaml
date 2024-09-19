@@ -12,6 +12,10 @@ importers:
         specifier: ^8.1.8
         version: 8.1.8(encoding@0.1.13)
 
+  packages/pkgOne: {}
+
+  packages/pkgTwo: {}
+
 packages:
 
   '@babel/code-frame@7.24.7':
