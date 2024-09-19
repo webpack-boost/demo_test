@@ -1,5 +1,5 @@
 {
-  "name": "pkgone",
+  "name": "@maomiao/pkgone",
   "version": "0.0.1-alpha.0",
   "description": "测试包",
   "keywords": [
@@ -14,5 +14,6 @@
   },
   "files": [
     "lib"
-  ]
+  ],
+  "gitHead": "eab9cb254e576e26e5b508c2e9329b26fc089d78"
 }
