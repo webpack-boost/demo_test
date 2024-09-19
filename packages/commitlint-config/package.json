@@ -8,7 +8,10 @@
   "author": "maomiao <maomiao@mrray.cn>",
   "homepage": "https://github.com/webpack-boost/demo_test#readme",
   "license": "ISC",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
   "files": [
     "lib"
   ],
@@ -21,5 +24,6 @@
   },
   "bugs": {
     "url": "https://github.com/webpack-boost/demo_test/issues"
-  }
+  },
+  "gitHead": "3f05dec7e0191ad56db36fb89e219aa33eb4b11a"
 }

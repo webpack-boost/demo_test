@@ -1,2 +1,2 @@
 extends:
-  - "./packages/commitlint-config/index.js"
+  - "./packages/commitlint-config/lib/index.js"
