@@ -13,7 +13,7 @@
     "preinstall": "npx only-allow pnpm",
     "prepare": "husky",
     "clean": "lerna clean && npx rm -rf node_modules",
-    "release": "lerna publish",
+    "release": "lerna publish from-package",
     "version": "conventional-changelog -p angular -i CHANGELOG.md -s && git add CHANGELOG.md",
     "commit": "git add . && cz"
   },
