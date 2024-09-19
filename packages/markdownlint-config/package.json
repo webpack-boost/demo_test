@@ -1,14 +1,15 @@
 {
-  "name": "@leisuremao/commitlint-config",
-  "version": "0.1.3-alpha.0",
-  "description": "custom commitlint rules config",
+  "name": "@leisuremao/markdownlint-config",
+  "version": "0.0.0",
+  "description": "custom markdown file lint rules",
   "keywords": [
-    "commitlint"
+    "markdown",
+    "markdownlint"
   ],
   "author": "maomiao <maomiao@mrray.cn>",
   "homepage": "https://github.com/webpack-boost/demo_test#readme",
   "license": "ISC",
-  "main": "lib/index.js",
+  "main": "lib/index.json",
   "directories": {
     "lib": "lib"
   },
@@ -24,6 +25,5 @@
   },
   "bugs": {
     "url": "https://github.com/webpack-boost/demo_test/issues"
-  },
-  "gitHead": "fd191eacf7cae581f001600a3421f69a502c7b74"
+  }
 }

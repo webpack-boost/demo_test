@@ -1,0 +1,75 @@
+{
+  "$schema": "https://raw.githubusercontent.com/DavidAnson/markdownlint/main/schema/markdownlint-config-schema.json",
+  "default": true,
+  "ul-style": {
+    "style": "dash"
+  },
+  "heading-style": {
+    "style": "consistent"
+  },
+  "no-trailing-spaces": {
+    "list_item_empty_lines": false,
+    "br_spaces": 0
+  },
+  "list-marker-space": true,
+  "line-length": {
+    "line_length": 120,
+    "code_block_line_length": 100,
+    "heading_line_length": 40,
+    "code_blocks": true
+  },
+  "no-inline-html": false,
+  "no-duplicate-heading": false,
+  "proper-names": {
+    "names": [
+      "JavaScript",
+      "TypeScript",
+      "HTML",
+      "CSS",
+      "AJAX",
+      "JSON",
+      "json",
+      "DOM",
+      "BOM",
+      "Less",
+      "Sass",
+      "SCSS",
+      "HTTP",
+      "HTTPS",
+      "WebSocket",
+      "ECMAScript",
+      "ECMAScript 2015",
+      "ECMAScript 6",
+      "ES6",
+      "ES2015",
+      "Vue",
+      "Vue.js",
+      "React",
+      "React.js",
+      "React Native",
+      "Bootstrap",
+      "Gulp",
+      "Grunt",
+      "webpack",
+      "npm",
+      "Babel",
+      "Node.js",
+      "NodeJS",
+      "Nginx",
+      "NGINX",
+      "GitHub",
+      "GitLab",
+      "Chrome",
+      "PC",
+      "Mobile",
+      "H5",
+      "Alibaba",
+      "Taobao",
+      "Google",
+      "UI",
+      "URL",
+      "URLs",
+      "Visual Studio Code"
+    ]
+  }
+}
