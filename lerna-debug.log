@@ -1,0 +1,119 @@
+0 silly argv {
+0 silly argv   _: [ 'publish' ],
+0 silly argv   composed: 'publish',
+0 silly argv   lernaVersion: '8.1.8',
+0 silly argv   '$0': 'node_modules\\lerna\\dist\\cli.js'
+0 silly argv }
+1 notice cli v8.1.8
+2 verbose packageConfigs Package manager "pnpm" detected. Resolving packages using `pnpm-workspace.yaml`.
+3 verbose rootPath F:\Github仓库\demo_test
+4 info versioning independent
+5 verbose session b876786ce624bf9d
+6 verbose user-agent lerna/8.1.8/node@v20.17.0+x64 (win32)
+7 silly argv { _: [ 'publish' ], composed: 'publish', lernaVersion: '8.1.8' }
+8 verbose packageConfigs Package manager "pnpm" detected. Resolving packages using `pnpm-workspace.yaml`.
+9 verbose rootPath F:\Github仓库\demo_test
+10 silly isAnythingCommitted
+11 verbose isAnythingCommitted 1
+12 silly getCurrentBranch
+13 verbose currentBranch main
+14 silly remoteBranchExists
+15 silly isBehindUpstream
+16 silly isBehindUpstream main is behind origin/main by 0 commit(s) and ahead by 0
+17 silly hasTags
+18 verbose hasTags true
+19 silly git-describe.sync "@leisuremao/commitlint-config@0.1.0-1-g2d89975" => {"lastTagName":"@leisuremao/commitlint-config@0.1.0","lastVersion":"0.1.0","refCount":"1","sha":"2d89975","isDirty":false}
+20 info Looking for changed packages since @leisuremao/commitlint-config@0.1.0
+21 silly checking diff packages/commitlint-config
+22 silly found diff in packages/commitlint-config/lib/index.js
+22 silly found diff in packages/commitlint-config/package.json
+23 verbose filtered diff [
+23 verbose filtered diff   'packages/commitlint-config/lib/index.js',
+23 verbose filtered diff   'packages/commitlint-config/package.json'
+23 verbose filtered diff ]
+24 silly checking diff packages/pkgOne
+25 silly no diff found in @leisuremao/pkgone
+26 silly checking diff packages/pkgTwo
+27 silly no diff found in @leisuremao/pkgtwo
+28 verbose updated @leisuremao/commitlint-config
+29 verbose git-describe undefined => "@leisuremao/commitlint-config@0.1.0-1-g2d89975"
+30 silly git-describe parsed => {"lastTagName":"@leisuremao/commitlint-config@0.1.0","lastVersion":"0.1.0","refCount":"1","sha":"2d89975","isDirty":false}
+31 info execute Skipping releases
+32 silly lifecycle No script for "preversion" in "root", continuing
+33 silly lifecycle No script for "preversion" in "@leisuremao/commitlint-config", continuing
+34 verbose version @leisuremao/commitlint-config has no lockfile. Skipping lockfile update.
+35 silly lifecycle No script for "version" in "@leisuremao/commitlint-config", continuing
+36 silly lifecycle "version" starting in "root"
+37 info lifecycle root@undefined~version: root@undefined
+38 silly lifecycle "version" finished in "root"
+39 silly gitAdd [ 'packages/commitlint-config/package.json' ]
+40 silly gitCommit chore(release): publish %s
+40 silly gitCommit
+40 silly gitCommit  - @leisuremao/commitlint-config@0.1.1-alpha.0
+41 verbose git [
+41 verbose git   'commit',
+41 verbose git   '-F',
+41 verbose git   'C:\\Users\\63235\\AppData\\Local\\Temp\\6078ac56-0843-4db2-b57c-07298835a674\\lerna-commit.txt'
+41 verbose git ]
+42 silly gitTag @leisuremao/commitlint-config@0.1.1-alpha.0 git tag %s -m %s
+43 verbose git [
+43 verbose git   'tag',
+43 verbose git   '@leisuremao/commitlint-config@0.1.1-alpha.0',
+43 verbose git   '-m',
+43 verbose git   '@leisuremao/commitlint-config@0.1.1-alpha.0'
+43 verbose git ]
+44 silly lifecycle No script for "postversion" in "@leisuremao/commitlint-config", continuing
+45 silly lifecycle No script for "postversion" in "root", continuing
+46 info git Pushing tags...
+47 silly gitPush origin main
+48 info publish Publishing packages to npm...
+49 warn ENOLICENSE Package @leisuremao/commitlint-config is missing a license.
+49 warn ENOLICENSE One way to fix this is to add a LICENSE.md file to the root of this repository.
+49 warn ENOLICENSE See https://choosealicense.com for additional guidance.
+50 silly getCurrentSHA
+51 verbose getCurrentSHA 3c84b238d6f2380c373101b078d1e592c130d245
+52 silly lifecycle No script for "prepublish" in "root", continuing
+53 silly lifecycle "prepare" starting in "root"
+54 info lifecycle root@undefined~prepare: root@undefined
+55 silly lifecycle "prepare" finished in "root"
+56 silly lifecycle No script for "prepublishOnly" in "root", continuing
+57 silly lifecycle No script for "prepack" in "root", continuing
+58 verbose pack-directory packages\commitlint-config
+59 silly lifecycle No script for "prepublish" in "@leisuremao/commitlint-config", continuing
+60 silly lifecycle No script for "prepare" in "@leisuremao/commitlint-config", continuing
+61 silly lifecycle No script for "prepublishOnly" in "@leisuremao/commitlint-config", continuing
+62 silly lifecycle No script for "prepack" in "@leisuremao/commitlint-config", continuing
+63 silly lifecycle No script for "postpack" in "@leisuremao/commitlint-config", continuing
+64 verbose packed packages\commitlint-config
+65 silly lifecycle No script for "postpack" in "root", continuing
+66 verbose publish @leisuremao/commitlint-config
+67 silly FetchError: request to https://registry.npmjs.org/@leisuremao%2fcommitlint-config failed, reason: socket hang up
+67 silly     at ClientRequest.<anonymous> (F:\Github仓库\demo_test\node_modules\.pnpm\minipass-fetch@3.0.5\node_modules\minipass-fetch\lib\index.js:130:14)
+67 silly     at ClientRequest.emit (node:events:519:28)
+67 silly     at emitErrorEvent (node:_http_client:108:11)
+67 silly     at TLSSocket.socketOnEnd (node:_http_client:535:5)
+67 silly     at TLSSocket.emit (node:events:531:35)
+67 silly     at endReadableNT (node:internal/streams/readable:1696:12)
+67 silly     at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+67 silly  FetchError: request to https://registry.npmjs.org/@leisuremao%2fcommitlint-config failed, reason: socket hang up
+67 silly     at ClientRequest.<anonymous> (F:\Github仓库\demo_test\node_modules\.pnpm\minipass-fetch@3.0.5\node_modules\minipass-fetch\lib\index.js:130:14)
+67 silly     at ClientRequest.emit (node:events:519:28)
+67 silly     at emitErrorEvent (node:_http_client:108:11)
+67 silly     at TLSSocket.socketOnEnd (node:_http_client:535:5)
+67 silly     at TLSSocket.emit (node:events:531:35)
+67 silly     at endReadableNT (node:internal/streams/readable:1696:12)
+67 silly     at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+67 silly   code: 'ECONNRESET',
+67 silly   errno: 'ECONNRESET',
+67 silly   type: 'system'
+67 silly }
+68 warn notice Package failed to publish: @leisuremao/commitlint-config
+69 error ECONNRESET request to https://registry.npmjs.org/@leisuremao%2fcommitlint-config failed, reason: socket hang up
+70 error errno "ECONNRESET" is not a valid exit code - exiting with code 1
+71 error FetchError: request to https://registry.npmjs.org/@leisuremao%2fcommitlint-config failed, reason: socket hang up
+71 error     at ClientRequest.<anonymous> (F:\Github仓库\demo_test\node_modules\.pnpm\minipass-fetch@3.0.5\node_modules\minipass-fetch\lib\index.js:130:14)
+71 error     at ClientRequest.emit (node:events:519:28)
+71 error     at emitErrorEvent (node:_http_client:108:11)
+71 error     at TLSSocket.socketOnEnd (node:_http_client:535:5)
+71 error     at TLSSocket.emit (node:events:531:35)
+71 error     at endReadableNT (node:internal/streams/readable:1696:12)
