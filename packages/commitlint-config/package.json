@@ -1,0 +1,25 @@
+{
+  "name": "@leisuremao/commitlint-config",
+  "version": "0.0.0",
+  "description": "custom commitlint rules config",
+  "keywords": [
+    "commitlint"
+  ],
+  "author": "maomiao <maomiao@mrray.cn>",
+  "homepage": "https://github.com/webpack-boost/demo_test#readme",
+  "license": "ISC",
+  "main": "index.js",
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webpack-boost/demo_test.git"
+  },
+  "bugs": {
+    "url": "https://github.com/webpack-boost/demo_test/issues"
+  }
+}
