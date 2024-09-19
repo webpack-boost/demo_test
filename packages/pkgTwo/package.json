@@ -15,5 +15,8 @@
   "files": [
     "lib"
   ],
-  "gitHead": "bebb589407f806a2ecc84efc0b6153222fd3f1e5"
+  "gitHead": "caab9ae42feb54c1517cdbccc6f4e75dd8267cfe",
+  "publishConfig": {
+    "access": "public"
+  }
 }
