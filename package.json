@@ -3,6 +3,7 @@
   "private": true,
   "devDependencies": {
     "@commitlint/cli": "^19.5.0",
+    "conventional-changelog-conventionalcommits": "^8.0.0",
     "cz-customizable": "^7.2.1",
     "husky": "^9.1.6",
     "lerna": "^8.1.8",
@@ -13,8 +14,9 @@
     "preinstall": "npx only-allow pnpm",
     "prepare": "husky",
     "clean": "lerna clean && npx rm -rf node_modules",
-    "release": "lerna publish from-package",
-    "version": "conventional-changelog -p angular -i CHANGELOG.md -s && git add CHANGELOG.md",
+    "release": "lerna publish",
+    "release:package": "lerna publish from-package",
+    "version": "conventional-changelog -p conventionalcommits -i CHANGELOG.md -s && git add CHANGELOG.md",
     "commit": "git add . && cz"
   },
   "publishConfig": {
