@@ -1,7 +1,3 @@
-'use strict';
-
-module.exports = pkgTwo;
-
-function pkgTwo() {
-  return 'Hello from pkgTwo';
-}
+export const pkgTwoFn = (x, y) => {
+  return x * y;
+};

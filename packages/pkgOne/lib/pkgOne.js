@@ -1,7 +1,3 @@
-'use strict';
-
-module.exports = pkgOne;
-
-function pkgOne() {
-  return 'Hello from pkgOne';
-}
+export const pkgOneFn = (a, b) => {
+  return a + b;
+};
