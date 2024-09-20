@@ -32,7 +32,6 @@ module.exports = {
         "build",
         "performance",
         "ci",
-        "dev",
       ],
     ],
   },
