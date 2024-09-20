@@ -1,5 +1,25 @@
 ##  (2024-09-20)
 
+* chore: release packages ([0ef1ad8](https://github.com/webpack-boost/demo_test/commit/0ef1ad8))
+* feat: create npm-publish.yml ([856dc28](https://github.com/webpack-boost/demo_test/commit/856dc28))
+* feat: update commitlint rules ([eadc61f](https://github.com/webpack-boost/demo_test/commit/eadc61f))
+* feat: update commitlint rules ([f36c49d](https://github.com/webpack-boost/demo_test/commit/f36c49d))
+* feat: update npm-publish.yml ([f894bbf](https://github.com/webpack-boost/demo_test/commit/f894bbf))
+* feat: update publish yaml ([337d1d0](https://github.com/webpack-boost/demo_test/commit/337d1d0))
+* feat: use github actions ([c20e4c7](https://github.com/webpack-boost/demo_test/commit/c20e4c7))
+* test: testing action ([6858980](https://github.com/webpack-boost/demo_test/commit/6858980))
+* test: testing action work or not ([54a458d](https://github.com/webpack-boost/demo_test/commit/54a458d))
+* test: testing action... ([fe5bdc0](https://github.com/webpack-boost/demo_test/commit/fe5bdc0))
+* test: testing git action ([9df178d](https://github.com/webpack-boost/demo_test/commit/9df178d))
+* test: testing github action ([df7d986](https://github.com/webpack-boost/demo_test/commit/df7d986))
+* fix: change action trigger way ([0f40f64](https://github.com/webpack-boost/demo_test/commit/0f40f64))
+* fix: fix action scripts ([da200a0](https://github.com/webpack-boost/demo_test/commit/da200a0))
+* fix: update auto-publish.yml ([4f2221d](https://github.com/webpack-boost/demo_test/commit/4f2221d))
+
+
+
+##  (2024-09-20)
+
 * test: commitlint pkg release test ([ff9e072](https://github.com/webpack-boost/demo_test/commit/ff9e072))
 * test: lerna publish ([b2988d5](https://github.com/webpack-boost/demo_test/commit/b2988d5))
 * test: testing changelog generate ([fd8908d](https://github.com/webpack-boost/demo_test/commit/fd8908d))

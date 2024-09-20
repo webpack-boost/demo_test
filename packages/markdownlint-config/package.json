@@ -1,6 +1,6 @@
 {
   "name": "@leisuremao/markdownlint-config",
-  "version": "0.0.4-alpha.20+f894bbf",
+  "version": "0.1.0",
   "description": "custom markdown file lint rules",
   "keywords": [
     "markdown",
