@@ -7,6 +7,9 @@
       "message": "chore(release): publish",
       "registry": "https://registry.npmjs.org/",
       "noGitTagVersion": true
+    },
+    "version": {
+      "noGitTagVersion": true
     }
   }
 }
