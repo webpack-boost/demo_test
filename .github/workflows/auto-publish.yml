@@ -25,11 +25,10 @@ jobs:
 
       # 安装依赖
       - name: Install dependencies
-        run: pnpm install --no-frozen-lockfile
+        run: pnpm install
 
       # 发布
       - name: Publish
-        run: pnpm run release
-
-    env:
-      NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+        run: pnpm lerna publish --yes
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
