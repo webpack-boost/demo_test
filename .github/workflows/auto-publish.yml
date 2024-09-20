@@ -5,9 +5,9 @@ on:
     branches:
       - master
     paths:
-      - "packages/**/*.js"
-      - "packages/**/*.md"
-      - "packages/**/*.ts"
+      - "packages/*.js"
+      - "packages/*.md"
+      - "packages/*.ts"
 
 jobs:
   auto-publish-packages:
