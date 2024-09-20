@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 0.4.0 (2024-09-20)
+
+
+### Features
+
+* Update npm-publish.yml ([94a143b](https://github.com/webpack-boost/demo_test/commit/94a143b8daa34a26916bc73f939c65bf3834f98a))
+
+
+
+
+
 # 0.3.0 (2024-09-20)
 
 
