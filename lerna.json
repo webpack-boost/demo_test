@@ -7,5 +7,9 @@
       "message": "chore(release): publish",
       "registry": "https://registry.npmjs.org/"
     }
+  },
+  "changelogPreset": {
+    "name": "conventionalcommits",
+    "issueUrlFormat": "{{host}}/{{owner}}/{{repository}}/issues/{{id}}"
   }
 }
