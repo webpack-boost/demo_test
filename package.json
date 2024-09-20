@@ -16,7 +16,7 @@
     "clean": "lerna clean && npx rm -rf node_modules",
     "release": "lerna publish",
     "release:package": "lerna publish from-package",
-    "version": "conventional-changelog -p conventionalcommits -i CHANGELOG.md -s && git add CHANGELOG.md",
+    "version": "conventional-changelog -p angular -i CHANGELOG.md -s && git add CHANGELOG.md",
     "commit": "git add . && cz",
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
