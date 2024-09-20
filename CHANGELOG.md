@@ -1,3 +1,21 @@
+## [](https://github.com/webpack-boost/demo_test/compare/v0.0.4-alpha.0...v) (2024-09-20)
+
+### Features
+
+* add markdownlint config rule ([18bd998](https://github.com/webpack-boost/demo_test/commit/18bd99872f491689bd6b8c5e41f551c48a135596))
+* add new package ([70d0c68](https://github.com/webpack-boost/demo_test/commit/70d0c689db042ab84c9e38ddd5e618ede450e926))
+* add new proper-name in markdownlint-config/index.json ([bbbfe01](https://github.com/webpack-boost/demo_test/commit/bbbfe01b64fe5218247a36b9a92d690f1eade971))
+* add vitepress as a static site ([f9c14b1](https://github.com/webpack-boost/demo_test/commit/f9c14b16403555b6b63fa8115861f0807f3fc8d5))
+* change the conventinal-changelog preset ([98f46a5](https://github.com/webpack-boost/demo_test/commit/98f46a53142c3514c2623020778f23d5f8a7af91))
+## [](https://github.com/webpack-boost/demo_test/compare/v0.0.4-alpha.0...v) (2024-09-20)
+
+### Features
+
+* add markdownlint config rule ([18bd998](https://github.com/webpack-boost/demo_test/commit/18bd99872f491689bd6b8c5e41f551c48a135596))
+* add new package ([70d0c68](https://github.com/webpack-boost/demo_test/commit/70d0c689db042ab84c9e38ddd5e618ede450e926))
+* add new proper-name in markdownlint-config/index.json ([bbbfe01](https://github.com/webpack-boost/demo_test/commit/bbbfe01b64fe5218247a36b9a92d690f1eade971))
+* add vitepress as a static site ([f9c14b1](https://github.com/webpack-boost/demo_test/commit/f9c14b16403555b6b63fa8115861f0807f3fc8d5))
+* change the conventinal-changelog preset ([98f46a5](https://github.com/webpack-boost/demo_test/commit/98f46a53142c3514c2623020778f23d5f8a7af91))
 ## [](https://github.com/webpack-boost/demo_test/compare/v0.0.4-alpha.0...v) (2024-09-19)
 
 ### Features
