@@ -19,6 +19,7 @@ jobs:
         with:
           node-version: 20
           registry-url: https://registry.npmjs.org/
+          //registry.npmjs.org/:_authToken: ${{secrets.NPM_TOKEN}}
       - run: npm i -g pnpm
       - run: pnpm install
       - run: npm i -g conventional-changelog-cli
