@@ -5,8 +5,8 @@
     "publish": {
       "npmClient": "npm",
       "message": "chore(release): publish",
-      "registry": "https://registry.npmjs.org/"
+      "registry": "https://registry.npmjs.org/",
+      "noGitTagVersion": true
     }
-  },
-  "tagVersionPrefix": ""
+  }
 }
