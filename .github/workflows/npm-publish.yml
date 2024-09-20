@@ -24,8 +24,8 @@ jobs:
       - run: npm i -g conventional-changelog-cli
       - run: git config --global user.name "maomiao"
       - run: git config --global user.email "maomiao@mrray.cn"
+      - run: lerna version --conventional-commits --preid beta --yes
+      - run: lerna publish from-git --yes
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
           GH_TOKEN: ${{secrets.PUSH_ACCESS_TOKEN}}
-      - run: lerna version --conventional-commits --preid beta --yes
-      - run: lerna publish from-git --yes
