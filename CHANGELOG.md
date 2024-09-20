@@ -3,6 +3,15 @@
 
 ### Features
 
+* update npm-publish.yml ([579571e](https://github.com/webpack-boost/demo_test/commit/579571eadec9cc3aa847edaf3f688a7d97eefd81))
+
+
+
+#  (2024-09-20)
+
+
+### Features
+
 * update npm-publish.yml ([ba0642e](https://github.com/webpack-boost/demo_test/commit/ba0642e3df9d1651b36b38d27af83e706ff25afd))
 
 
