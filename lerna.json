@@ -9,7 +9,7 @@
     }
   },
   "changelogPreset": {
-    "name": "conventionalcommits",
+    "name": "angular",
     "issueUrlFormat": "{{host}}/{{owner}}/{{repository}}/issues/{{id}}"
   }
 }
