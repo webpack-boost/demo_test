@@ -22,8 +22,9 @@ jobs:
       - run: npm i -g pnpm
       - run: pnpm install
       - run: npm i -g conventional-changelog-cli
-      - run: git config user.name "maomiao"
-          git config user.email "maomiao@mrray.cn"
+      - run: 
+          git config --global user.name "maomiao"
+          git config --global user.email "maomiao@mrray.cn"
       - run: lerna version --conventional-commits --preid beta --yes
       - run: lerna publish from-git --yes
         env:
