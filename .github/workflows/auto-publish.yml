@@ -1,0 +1,42 @@
+name: Auto Publish Packages
+
+on:
+  release:
+    types: [published]
+
+  push:
+    branches:
+      - master
+    paths:
+      - "packages/**/*.js"
+      - "packages/**/*.md"
+      - "packages/**/*.ts"
+
+jobs:
+  auto-publish-packages:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2.3.1
+
+      # 设置node环境
+      - name: Lock npm version
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20.x"
+          registry-url: "https://registry.npmjs.org"
+
+      # 安装pnpm
+      - name: Global install pnpm
+        run: npm i -g pnpm
+
+      # 安装依赖
+      - name: Install dependencies
+        run: pnpm install --no-frozen-lockfile
+
+      # 发布
+      - name: Publish
+        run: pnpm run release
+
+    env:
+      NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
