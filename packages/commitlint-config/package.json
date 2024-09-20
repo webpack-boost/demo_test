@@ -1,6 +1,6 @@
 {
   "name": "@leisuremao/commitlint-config",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "custom commitlint rules config",
   "keywords": [
     "commitlint"
