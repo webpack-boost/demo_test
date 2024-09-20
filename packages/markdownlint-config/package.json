@@ -1,6 +1,6 @@
 {
   "name": "@leisuremao/markdownlint-config",
-  "version": "0.0.4-alpha.0",
+  "version": "0.0.4-alpha.20+f894bbf",
   "description": "custom markdown file lint rules",
   "keywords": [
     "markdown",
@@ -26,5 +26,6 @@
   },
   "bugs": {
     "url": "https://github.com/webpack-boost/demo_test/issues"
-  }
+  },
+  "gitHead": "f894bbffb47224612d6f87076c2f3f80e6443052"
 }

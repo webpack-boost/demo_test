@@ -1,6 +1,6 @@
 {
   "name": "@leisuremao/commitlint-config",
-  "version": "0.1.7",
+  "version": "0.1.7-alpha.15+f894bbf",
   "description": "custom commitlint rules config",
   "keywords": [
     "commitlint"
@@ -25,5 +25,6 @@
   },
   "bugs": {
     "url": "https://github.com/webpack-boost/demo_test/issues"
-  }
+  },
+  "gitHead": "f894bbffb47224612d6f87076c2f3f80e6443052"
 }
