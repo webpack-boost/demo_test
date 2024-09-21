@@ -6,10 +6,10 @@ name: Node.js Package
 on:
   push:
     branches:
-      - master
+      - main
     paths:
-      - "**.js"
-      - "**.json"
+      - "/packages/**/*.js"
+      - "/packages/**/*.json"
 
   workflow_dispatch:
 
