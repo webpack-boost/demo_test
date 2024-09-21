@@ -8,8 +8,7 @@ on:
     branches:
       - main
     paths:
-      - "/packages/**/*.js"
-      - "/packages/**/*.json"
+      - "packages/**.js"
 
   workflow_dispatch:
 
