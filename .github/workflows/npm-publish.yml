@@ -7,6 +7,9 @@ on:
   push:
     branches:
       - master
+    paths:
+      - "/packages/**/*.js"
+      - "/packages/**/*.json"
 
   workflow_dispatch:
 
@@ -19,13 +22,12 @@ jobs:
         with:
           node-version: 20
           registry-url: https://registry.npmjs.org/
-          //registry.npmjs.org/:_authToken: ${{secrets.NPM_TOKEN}}
       - run: npm i -g pnpm
       - run: pnpm install
       - run: npm i -g conventional-changelog-cli
       - run: git config --global user.name "maomiao"
       - run: git config --global user.email "maomiao@mrray.cn"
-      - run: lerna version --conventional-commits --preid beta --yes
+      - run: lerna version --preid beta --yes
       - run: lerna publish from-git --yes
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
