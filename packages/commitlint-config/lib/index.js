@@ -34,7 +34,6 @@ module.exports = {
         "ci",
         "DEV",
         "PROD",
-        "TEST",
       ],
     ],
   },
