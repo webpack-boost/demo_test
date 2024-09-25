@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 0.5.0 (2024-09-25)
+
+
+### Features
+
+* update action yaml ([2bddf09](https://github.com/webpack-boost/demo_test/commit/2bddf0965f30efc4efa8ace42b16ad56de29417c))
+
+
+
+
+
 # 0.4.0 (2024-09-20)
 
 

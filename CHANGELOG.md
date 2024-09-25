@@ -1,3 +1,12 @@
+#  (2024-09-25)
+
+
+### Features
+
+* update action yaml ([2bddf09](https://github.com/webpack-boost/demo_test/commit/2bddf0965f30efc4efa8ace42b16ad56de29417c))
+
+
+
 #  (2024-09-24)
 
 
