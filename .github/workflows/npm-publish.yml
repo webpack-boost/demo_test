@@ -39,7 +39,7 @@ jobs:
           git config --global user.email "maomiao@mrray.cn"
 
       - name: Release And Tagged Version
-        run: lerna version --conventional-commits --no-changelog --preid beta --yes
+        run: lerna version --conventional-commits --yes
 
       - name: Publish Packages
         run: lerna publish from-git --yes
