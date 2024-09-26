@@ -35,11 +35,11 @@ jobs:
 
       - name: GitHub Authorization
         run: |
-          git config --global user.name "maomiao"
-          git config --global user.email "maomiao@mrray.cn"
+          git config --global user.name "${{ github.actor }}"
+          git config --global user.email "${{ github.actor }}@mrray.cn"
 
       - name: Release And Tagged Version
-        run: lerna version --conventional-commits --yes
+        run: lerna version --conventional-commits --no-changelog --preid beta --yes
 
       - name: Publish Packages
         run: lerna publish from-git --yes
