@@ -33,6 +33,7 @@ module.exports = {
         "performance",
         "ci",
         "DEV",
+        "PROD",
       ],
     ],
   },
